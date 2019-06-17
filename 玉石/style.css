@@ -1,0 +1,302 @@
+/*
+* @Author: DELL
+* @Date:   2019-06-14 09:36:47
+* @Last Modified by:   DELL
+* @Last Modified time: 2019-06-17 18:21:14
+*/
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+a{
+	color:black;
+}
+.head{
+	color:#0d0408;
+	position:relative;
+	left:700px;
+	margin-right:10px;
+}
+.head1{
+	width:1235px;
+	float:left;
+	position:relative;
+	left:175px;
+	margin-top:35px;
+}
+.biao{
+	float:left;
+	color:#bfbfbf;
+	text-align: center;
+	width: 500px;
+	height: 40px;
+	position:relative;
+	top:8px;
+	margin-left:200px;
+}
+.search{
+	width:44px;
+	height:42px;
+	float: left;
+	position: relative;
+	top:8.2px;
+	border: 1px solid ;
+	border-left:none;
+}
+.head2{
+	width:1919px;
+	height:40px;
+	float:left;
+	border-bottom:2px solid red;
+}
+.nav{
+	width:110px;
+	height:33px;
+	display:inline-block;
+	position:relative;
+	left:145px;
+	top:5px;
+	text-align: center;
+}
+.nav:hover{
+	border-bottom:4px solid green;
+	color:red;
+}
+.head3{
+	width:1100px;
+	height:900px;
+	position:relative;
+	left:175px;
+	margin-top:3px;
+}
+.nav1{
+	width:1100px;
+	height:50px;
+}
+.nav2{
+	width:1100px;
+	height:140px;
+}
+.nav21{
+	width:1100px;
+	height:45px;
+	border:1px solid #8c8c8c;
+	line-height:45px;
+}
+.nav21 div{
+	width:101px;
+	height:46px;
+	background:#bfbfbf;
+	text-align:center;
+	line-height:45px;
+	position:relative;
+	float:left;
+}
+.nav21 ul li{
+	display:block;
+	float:left;
+	margin:0 50px 0 40px;
+}
+.nav21 ul li:hover{
+	color:red;
+}
+.nav3{
+	width:1200px;
+	height:600px;
+	margin-top: 50px;
+	position:relative;
+	left:40px;
+}
+.pic1{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img1.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.dahei{
+	width:233px;
+	height:240px;
+	background:black;
+	opacity:0.6;
+	text-align:center;
+}
+.dahei p{
+	color:white;
+	position:relative;
+	top:120px;
+}
+.dahei{
+	display:none;
+}
+.pic1:hover .dahei{
+	display:block;
+}
+.pic1:hover .hei{
+	display:none;
+}
+.hei{
+	width:233px;
+	height:51px;
+	background:black;
+	opacity:0.6;
+	text-align:center;
+	margin-top:190px;
+}
+.hei p{
+	color:white;
+}
+.pic2{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img2.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic2:hover .dahei{
+	display:block;
+}
+.pic2:hover .hei{
+	display:none;
+}
+.pic3{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img3.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic3:hover .dahei{
+	display:block;
+}
+.pic3:hover .hei{
+	display:none;
+}
+.pic4{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img4.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic4:hover .dahei{
+	display:block;
+}
+.pic4:hover .hei{
+	display:none;
+}
+.pic5{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img5.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic5:hover .dahei{
+	display:block;
+}
+.pic5:hover .hei{
+	display:none;
+}
+.pic6{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img6.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic6:hover .dahei{
+	display:block;
+}
+.pic6:hover .hei{
+	display:none;
+}
+.pic7{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img7.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic7:hover .dahei{
+	display:block;
+}
+.pic7:hover .hei{
+	display:none;
+}
+.pic8{
+	width:233px;
+	height:240px;
+	border: 1px solid red;
+	background:url('所需小图/img8.png') center;
+	margin:10px 10px 10px 10px;
+	float:left;
+}
+.pic8:hover .dahei{
+	display:block;
+}
+.pic8:hover .hei{
+	display:none;
+}
+.head4{
+	height:102px;
+	background:#f5f5f5;
+}
+.xiaotu{
+	float:left;
+	position:relative;
+	left:15px;
+}
+.nav0{
+	width:260px;
+	height:53px;
+	border-right:1px solid #bfbfbf;
+	position:relative;
+	left:220px;
+	top:25px;
+	float:left;
+}
+.head5{
+	height:102px;
+	background:black;
+}
+.head5 p{
+	font-size:14px;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:30px;
+}
+.fudong{
+	width:50px;
+	height:360px;
+	position:fixed;
+	top:124px;
+	right:0px;
+	background:black;
+}
+.tu{
+	border-bottom:1px solid #bfbfbf;
+	position:relative;
+	top:5px;
+	left:3px;
+	margin-top:30px;
+}
+.tu img{
+	position:relative;
+	top:-15px;
+	left:5px;
+}
